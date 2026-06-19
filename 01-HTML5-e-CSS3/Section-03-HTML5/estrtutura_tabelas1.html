@@ -54,6 +54,28 @@
             <td>Notebook</td>
             <td>R$ 3.500,00</td>
         </tr>
+
+        <tr>
+            <!--com os atributos rowspan e colspan podemos mesclar cedulas da tabela-->
+            <td rowspan="2">Descontos</td> <!--rowspan mescla colunas da tabela e o numero representa a quantidade de colunas mescladas-->
+            <td colspan="2">cupom 1 -R$ 10</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">cupom 2 -R$ 12</td> <!--ja o colaspan mescla linhas da tabela-->
+        </tr>
+
+        <tr>
+            <td>total:</td>
+            <td colspan="2">R$ 4488,00</td>
+        </tr>
+    </table>
+
+<br>
+
+    <!--tambem podemos definir a area ocupada pela tabela em nossa tela (px para pixels e % para area corespondente da tela)-->
+    <table border="2" width="100%">
+        <th>dado ficticio</th>
     </table>
 </body>
 </html>
