@@ -13,10 +13,41 @@
         
         senha: <br>
         <input type="password" name="senha"><br> <!--o type define o tipo de dado e no caso de senhas impede a visualização da mesma na hora de digitar-->>
-        
-        <input type="submit" value="enviar"> <!--o value permite definir o que sera mostrado no botao de enviar-->
 
-        <!--note que este é apenas um codigo de estudos de funções pois o metodo se ultilizado apenas do jeito demonstrado acima nao é seguro logo o metodo com linguagem e etc sera refeito mais a frente em meus estudos>
+        <!--note que este é apenas um codigo de estudos de funções pois o metodo se ultilizado apenas do jeito demonstrado acima nao é seguro logo o metodo com linguagem e etc sera refeito mais a frente em meus estudos-->
+    </form>
+
+    <form action="">
+        genero: <br>
+        <!--o type radio permite ultilizar inputs de escolha unica-->
+        <input type="radio" name="genero" value="M"><br> <!--importante ressaltar que o para que somente uma opção seja selecionada o name deve ser o mesmo para ambos-->
+        <input type="radio" name="genero" value="F">
+
+        <br><br>
+
+        interesses: <br>
+        <!-- checkbox permite fcruar inputs de escolhas diversas-->
+        <input type="checkbox" name="interesses" value="futebol">futebol <br>
+        <input type="checkbox" name="interesses" value="basquete">basquete <br>
+        <input type="checkbox" name="interesses" value="golf">golf
+
+        <br><br>
+
+        estado: <br>
+        <!--select nos permite criar um campo de escolha entre diversas unidades (nao recomendando no caso de escolhas muito estenivas)-->
+        <select name="estados">
+            <option value="mg">MG</option>
+            <option value="sp">SP</option>
+            <option value="sc">SC</option>
+            <option value="pr">PR</option>
+        </select>
+
+        <br><br>
+
+        comentario: <br>
+        <textarea name="comentario" value="comentario"></textarea><br>
+
+        <input type="submit" value="enviar"> <!--o value permite definir o que sera mostrado no botao de enviar-->
     </form>
 </body>
 </html>
